@@ -30,9 +30,9 @@ neg : Same as add but for negation. Allows −A to be used.
 
 pow : Element-wise exponentiation, only single number arguments are necessary to consider, but should support floats in addition to ints.
 
-getitem : This will implement object indexing of the form A[i] or A[i,j]. The argu- ment should be a tuple of length 2. The first argument should be taken to be the the row index and the second should be the column index. You should assume that the arrays will always be called with two indices.
+getitem : This will implement object indexing of the form A[i] or A[i,j]. The argument should be a tuple of length 2. The first argument should be taken to be the the row index and the second should be the column index. You should assume that the arrays will always be called with two indices.
 
-dot: Matrix dot product. If we take C = A.dot(B) we should have C[i, j] = 􏰁k A[i, k]B[k, j]. If A has shape (x, y) and B has shape (y, z) the shape of C should be (x, z).
+dot: Matrix dot product. If we take C = A.dot(B) we should have C[i, j] = k A[i, k]B[k, j]. If A has shape (x, y) and B has shape (y, z) the shape of C should be (x, z).
 
 
 The ”statistics” methods are the following:
