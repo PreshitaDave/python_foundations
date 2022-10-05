@@ -14,9 +14,7 @@ data: Contains the array structured as a nested list.
 The class should also have several methods. These can be divided into ”linear algebra” methods and ”statistics” methods, in addition to an ” init ” method that takes in a 2D array from a list in the same way as NumPy does: It should take a nested list, with the elements of the outer list being rows and the elements of the inner list being the elements of those rows.
 The ”linear algebra” methods are the following:
 
-transpose: The transpose method should return a new array object with the rows and columns reversed. If the original array has rows indexed by i and 
-
-columns indexed by j. so A.transpose()[i, j] = A[j, i]
+transpose: The transpose method should return a new array object with the rows and columns reversed. If the original array has rows indexed by i and columns indexed by j. so A.transpose()[i, j] = A[j, i]
 
 sum: A sum of elements in the array. If no argument is given, it should return the sum of all elements in the array. It should optionally take arguments either 0 or 1, indicating a sum along the rows or columns, respectively. In particular if array A has shape (m, n) then A.sum(0) should return an n dimensional column vector and A.sum(1) should return an m dimensional row vector.
 
