@@ -1,6 +1,8 @@
 
 Writing an array package
+
 Write a package that contains an array class. The array class will consist of the data contained in the array, and several methods and attributes. The arrays should be implemented in pure python, without the use of numpy, scipy, or any other additional libraries. The package should support arrays up to 2D, as well as row and column vectors. We will use the notation A[i,j] below to denote an array A indexed to the i-th row and j-th column.
+
 Objects of this class should have several attributes:
 
 size: The size attribute should return the total number of entries in the array.
